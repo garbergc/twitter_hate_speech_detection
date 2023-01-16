@@ -1,1 +1,7 @@
-# twitter_hate_speech_detection
+# Twitter Hate Speech Detection
+
+## By Clare Garberg, Abby Fremaux
+
+### Abstract
+
+Online hate speech has unfortunately become increasingly prevalent specifically on social media platforms. Twitter can be used as a tool to spread misinformation and hate with the protection of anonymity behind a screen. Recently, online hate speech has even been known to incite violence. Consequently, this has contributed to the rising awareness of the spread of online hate speech and has inspired a movement to hold these social media platforms accountable for the real world consequences of the content they are pushing to users. Studies have found that hate speech on Twitter can predict the frequency of hate crimes. The debate over whether or not free speech in the 1st Amendment should be protected over hate speech online has become a heavily divided topic. Social media platforms should take a stand against the spread of hate. The following analysis explores research conducted to build a model that will be able to detect tweets from Twitter that contain these “hate speech” sentiments. Several modeling approaches are tested on a labeled dataset of Tweets from Twitter obtained from Kaggle including random forest, support vector machines, logistic regression, naive bayes, and DistilBERT. It is found that the multinomial naive bayes model achieves the highest accuracy score of 0.86 and the highest F1 score of 0.87. A precise model like this will allow Twitter to identify tweets containing hate speech and to work to lessen the detrimental effects of hate speech on its users in the future. 
